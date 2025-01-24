@@ -32,17 +32,21 @@ doi: 10.46430/phpt0027
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+O site do Old Bailey Online foi recentemente atualizado. Infelizmente, devido às diversas <a href="https://www.oldbaileyonline.org/about/whats-new">mudanças</a>, muitos (se não todos) os elementos do site de exemplo usado nesta lição não funcionarão conforme descrito. No entanto, as metodologias ensinadas por esta lição permanecem relevantes e podem ser adaptadas pelos leitores para um site de exemplo diferente. Estamos trabalhando na adaptação da lição para o novo site do Old Bailey Online, mas ainda não temos cronograma preciso de quando a lição será atualizada.  [Abril de 2024]
+</div>
+
 ## Objetivos da lição
 
 Nesta lição de duas partes, aprofundaremos o que aprendeu sobre o [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python), aprendendo como remover a *marcação HTML* de uma página web da [transcrição do julgamento criminal de Benjamin Bowsey em 1780](https://perma.cc/8LM6-W39K). Faremos isso usando uma variedade de *operadores de string*, *métodos de string* e habilidades de leitura atenta. Introduziremos *looping* e *branching* de modo que os programas possam repetir tarefas e testar certas condições, tornando possível a separação do conteúdo das tags HTML. Finalmente, faremos a conversão do conteúdo de uma string longa para uma *lista de palavras*, que podem ser ordenadas, indexadas e contabilizadas posteriormente.
 
 ## O Desafio
 
-Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento](/assets/obo-t17800628-33.html) caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML](http://www.w3schools.com/html/) para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
+Para ter uma ideia mais clara da tarefa que temos pela frente, abra o ficheiro *obo-t17800628-33.html* que criou em [Download de Páginas Web com Python](/pt/licoes/download-paginas-web-python) (ou faça o [download e guarde a transcrição do julgamento](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html) caso ainda não tenha uma cópia) e depois verifique o código-fonte do HTML clicando em *Ferramentas -> Ferramentas do Navegador -> Fonte da página* (para usuários do navegador Firefox). À medida que for olhando o código-fonte, notará que há tags HTML misturadas com texto. Caso não tenha experiência com HTML, recomendamos que faça o tutorial do W3 Schools [HTML](http://www.w3schools.com/html/) para se familiarizar com a marcação HTML. Se o seu trabalho frequentemente requer que remova a marcação HTML, certamente será útil entendê-la ao visualizá-la.
 
 ## Ficheiros Necessários para esta Lição
 
--   *[obo-t17800628-33.html](/assets/obo-t17800628-33.html)*
+-   *[obo-t17800628-33.html](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html)*
 
 ## Idealizando um Algoritmo
 

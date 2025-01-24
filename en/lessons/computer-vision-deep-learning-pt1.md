@@ -20,7 +20,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/342
 difficulty: 3
 activity: analyzing
 topics: [python, machine-learning]
-abstract: This is the first of a two-part lesson introducing deep learning based computer vision methods for humanities research. Using a dataset of historical newspaper advertisements and the fastai Python library, the lesson walks through the pipeline of training a computer vision model to perform image classification. 
+abstract: This is the first of a two-part lesson introducing deep learning based computer vision methods for humanities research. Using a dataset of historical newspaper advertisements and the fastai Python library, the lesson walks through the pipeline of training a computer vision model to perform image classification.     
 mathjax: true
 avatar_alt: An illustration of a camera on top of a wooden stand with a dark cloth.
 next: computer-vision-deep-learning-pt2
@@ -72,39 +72,35 @@ This two-part lesson does not aim to:
 We suggest approaching this two-part lesson in two stages:
 
 - First, read through the materials on this page, to gain familiarity with the key conceptual issues and the overall workflow for training a computer vision model
-- Second, run the code in the accompanying Jupyter Notebook version of each lesson on Kaggle (see below)
+- Second, we recommend that you run the code for this lesson through the [accompanying Jupyter Notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1-2/computer-vision-deep-learning-pt1-2.ipynb) on Google Colab, which works well for the exploratory approch we will be following.
 
 In this two-part lesson we will be using a deep learning based approach to computer vision. The process of setting up an environment for doing deep learning has become easier but can still be complex. We have tried to keep this setup process as simple as possible, and recommend a fairly quick route to start running the lesson's code.
 
-### Notebooks
+### Running the Notebook
 
-This two-part _Programming Historian_ lesson is available as a Jupyter Notebook. We recommend that you run the code for this through the accompanying notebooks, which work well for the exploratory nature we will be using.
+You can run the lesson code in a variety of different ways, but we strongly encourage you to use the 'cloud' set-up instructions as opposed to setting things up locally. This is for a several reasons:
 
-### Running the Notebooks
-
-You can run the lesson notebooks in a variety of different ways. We strongly encourage you to use the 'cloud' setup instructions as opposed to setting things up locally. This is for a several reasons:
-
-- The setup process for using deep learning in a cloud environment _can_ be much simpler than trying to set things up locally. Many laptops and personal computers won't have this type of hardware available and the process of installing the necessary software drivers can be time consuming.
+- The set-up process for using deep learning in a cloud environment _can_ be much simpler than trying to set things up locally. Many laptops and personal computers won't have this type of hardware available and the process of installing the necessary software drivers can be time consuming.
 - The code in this lesson will run much more quickly when a specific type of [Graphical Processing Unit](https://perma.cc/PW3J-BVHZ) (GPU) is available. This will allow for an interactive approach to working with models and outputs.
 - [GPUs are more energy efficient](https://doi.org/10.1109/BDCloud-SocialCom-SustainCom.2016.76) for some tasks compared to [Central Processing Units](https://perma.cc/2P2P-EL4V) (CPUs), including the type of tasks we will work with in these lessons.
 
-### Kaggle
+### Google Colab
 
-[Kaggle](https://perma.cc/9H6M-PDB6) is a website which hosts datasets, runs data science competitions and provides learning resources. Kaggle also hosts Jupyter Notebooks, including notebooks with access to GPUs.
+[Google Colab](https://colab.research.google.com/) is a free cloud service that supports Jupyter notebooks and provides free access to computing resources including GPUs.
 
-To run the lesson code on Kaggle you will need to:
+To run the lesson code on Google Colab you will need to:
 
-- Create an account on [Kaggle](https://www.kaggle.com) (you will need to provide a phone number), or log in to your existing account.
-- Go to [https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1](https://www.kaggle.com/code/davanstrien/progamming-historian-deep-learning-pt1). The data used in this lesson is provided alongside these notebooks.
-- Click on the 'Edit' button to create a copy of the notebook.
-- Set the 'Accelerator option' to a 'GPU'; you will find this option under 'settings'. Kaggle occasionally changes which type of GPUs they make available. Selecting a single GPU will be sufficient for this lesson.
+- Create a free account on [Google](https://accounts.google.com/signup) if you don't already have one, or log in to your existing account. A Google account is required to save and run notebooks on Colab.
+- [Open the notebook](https://nbviewer.org/github/programminghistorian/jekyll/blob/gh-pages/assets/computer-vision-deep-learning-pt1-2/computer-vision-deep-learning-pt1-2.ipynb) and click the _Open in Colab_ button.
+- Once the notebook is opened, you may want to save a copy to your own Google Drive. You can do this by selecting **File** > _Save a copy in Drive_.
+- To use a GPU, go to **Runtime** > **Change runtime type**, then under the `Hardware accelerator` dropdown, select a GPU option (e.g. T4 GPU) and click _Save_. This will enable GPU acceleration for your notebook. Colab occasionally changes which type of GPUs they make available. 
 
-{% include figure.html filename="kaggle_gpu.png" alt="Screenshot showing the Accelerator option set to GPU" caption="The Kaggle notebooks settings menu" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-01.png" alt="Screenshot showing the Accelerator option set to GPU" caption="Figure 1. The Google Colab 'Runtime' settings menu" %}
 
-- The interface for Kaggle notebooks should be familiar if you have used Jupyter notebooks before. To run a cell containing code you  click the right-pointing arrow button or, if the cell is selected, using 'Shift + Enter'.
-- Remember to close your session down once you have finished working with the notebooks. You can do this by accessing the 'run' drop down menu at the top of a Kaggle notebook.
+- The interface for Colab notebooks should be familiar if you have used Jupyter notebooks before. To run a cell containing code, click the play button on the left side of the cell or, if the cell is selected, use _Shift_ + _Enter_.
+- Remember to disconnect your runtime once you have finished working with the notebooks to avoid using up your allocation of time. You can do this by selecting **Runtime** > **Manage Sessions** and then selecting _Terminate_ for your active session.
 
-Kaggle has further [documentation on using their notebooks](https://perma.cc/YF2N-C94Q) as well as guidance on [efficient GPU usage](https://perma.cc/V8CZ-WZQ4).
+Google Colab has further [documentation on using their notebooks](https://colab.research.google.com/notebooks/welcome.ipynb) as well as a useful [FAQ section](https://perma.cc/8EFW-AA2U) for common questions and efficient usage tips.
 
 ### Local Setup
 
@@ -148,11 +144,11 @@ If you look through the advert images, you will see that some of the adverts con
 
 An advert with an illustration[^7]:
 
-{% include figure.html filename="illustrated_ad.jpg" alt="A black and white image of a newspaper advert. The image contains an illustration of a coffee tin on the left of the advert." caption="An example of an illustrated advert" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-02.png" alt="A black and white image of a newspaper advert. The image contains an illustration of a coffee tin on the left of the advert." caption="Figure 2. An example of an illustrated advert" %}
 
 An advert without an illustration[^8]:
 
-{% include figure.html filename="non_illustrated_ad.jpg" alt="A black and white image of a newspaper advert. The advert contains text only. The advert is for fire insurance, with the address listed for the insurance company" caption="An example of a text only advert" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-03.png" alt="A black and white image of a newspaper advert. The advert contains text only. The advert is for fire insurance, with the address listed for the insurance company" caption="Figure 3. An example of a text only advert" %}
 
 Our classifier will be trained to predict which category an advert image belongs. We might use this to help automate finding adverts with images for further 'manual' analysis. Alternatively, we may use this classifier more directly to quantify how many adverts contained illustrations in a given year and discover whether this number changed over time, along with how it was influenced by other factors such as the place of publication. The intended use of your model will impact the labels you choose to train it on and how you choose to assess whether a model is performing sufficiently well. We'll dig into these issues further as we move through this two-part lesson.
 
@@ -232,7 +228,7 @@ It is important to make sure that data has been loaded correctly. One way to che
 ad_data.show_batch()
 ```
 
-{% include figure.html filename="show_batch_1.png" alt="The output of show batch. The output is a 3x3 grid of images of newspaper advertisements with labels above them indicating if the advertisement is 'illustrated' or 'text-only'" caption="The output of 'show_batch'" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-04.png" alt="The output of show batch. The output is a 3x3 grid of images of newspaper advertisements with labels above them indicating if the advertisement is 'illustrated' or 'text-only'" caption="Figure 4. The output of 'show_batch'" %}
 
 This is a useful way of checking that your labels and data have been loaded correctly. You can see here that the labels (`text-only` and `illustration`) have been associated correctly with how we want to classify these images. 
 
@@ -347,7 +343,7 @@ Now that we have an overview of the process we'll go into more detail about how 
 
 This section will start to dig into some of the steps involved in the process of creating a deep learning based computer vision model. This process involves a range of steps, only some of which are directly about training models. A high-level illustration of a supervised machine learning pipeline might look like this:
 
-{% include figure.html filename="deep-learning-pipeline-simple.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="A high level illustration of a supervised machine learning pipeline" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-05.png" alt="A diagram showing a workflow of a machine learning pipeline. The pipeline contains three boxes, 'data preparation', 'deep learning' and 'analysis'. An arrow moves across these three boxes. Within the 'data preparation' box are three boxes from left to right: 'sampling', 'labels', 'annotation'. For the box 'deep learning' there are three smaller boxes with arrows moving between them: 'training data', 'model', 'predictions'. The box 'analysis' contains three smaller boxes 'metrics' and 'interpretation'." caption="Figure 5. A high level illustration of a supervised machine learning pipeline" %}
 
 We can see that there are quite a few steps before and after the model training phase of the workflow. Before we get to training a model, we need data. In this lesson, image data has already been prepared so you didn't need to worry about this step. However, when you move to using computer vision for your own research questions, it is unlikely that there will an existing dataset for your exact use case. As a result, you will need to create this data yourself. The process of getting access to data will vary depending on the type of images you are interested in working with and where they are held. Some heritage collections are making bulk collections of images data available, whilst others largely make images available only via a 'viewer'. The increasing adoption of the [IIIF standard](https://perma.cc/27EM-N36U) is also making the process of working with images held by different institutions simpler.
 
@@ -359,7 +355,7 @@ Once a model has reached a satisfactory score, its outputs may be used for a ran
 
 Zooming in on the deep learning part of the workflow, what does the training process look like?
 
-{% include figure.html filename="training-loop.jpg" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box"  caption="The deep learning training loop" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-06.png" alt="A diagram showing a workflow of training a deep learning model. The pipeline contains two boxes, 'prepare training batch' and 'model training'. An arrow moves across these two boxes to a free standing box with the text 'metrics' inside. Inside the 'prepare' training batch' is a workflow showing an image and a label going through a transform, and then put in a batch. Following this under the 'model training' heading' the workflow moves through a model, predictions, and a loss. This workflow has an arrow indicating it is repeated. This workflow also flows to the metrics box"  caption="Figure 6. The deep learning training loop" %}
 
 A high-level summary of the training loop for supervised learning: start with some images and labels, do some preparation to make the input suitable for a deep learning model, pass the data through the model, make predictions for the labels, calculate how wrong the predictions are, update the model with the aim of generating better predictions next time. This process is repeated a number of times. During this training loop, metrics are reported which let the human training the model evaluate how well the model is doing.
 
@@ -387,7 +383,7 @@ Before we can create a batch and load it onto the GPU, we usually need to make s
 
 Once we have prepared data so it can be loaded one batch at a time, we pass it to our model. We already saw one example of a model in our first example `resnet18`. A deep learning model architecture defines how data and labels are passed through a model. In this two-part lesson, we focus on a specific type of deep learning that uses 'Convolutional Neural Networks' (CNN).
 
-{% include figure.html filename="3-layer-network.png" alt="A simplified diagram of a three layer neural network. The diagram shows an input image on the left moving through three layer of the neural network. Each layer has sections highlighted illustrating these areas being activated. The diagram then points to two images on representing an illustrated advert the other a text only advert. In this diagram the image shown has an illustration so the arrow pointing to the illustrated label is highlighted." caption="A three layer neural network" %}
+{% include figure.html filename="en-or-computer-vision-deep-learning-pt1-07.png" alt="A simplified diagram of a three layer neural network. The diagram shows an input image on the left moving through three layer of the neural network. Each layer has sections highlighted illustrating these areas being activated. The diagram then points to two images on representing an illustrated advert the other a text only advert. In this diagram the image shown has an illustration so the arrow pointing to the illustrated label is highlighted." caption="Figure 7. A three layer neural network" %}
 
 This diagram gives a crude overview of the different components of a CNN model. In this type of model, an image is passed through several layers, before predicting an output label for the image ('text only' in this diagram). The layers of this model are updated during training so that they "learn" which features of an image predict a particular label. So for example, the CNN we trained on adverts will update the parameters known as "weights" for each layer, which then produces a representation of the image that is useful for predicting whether an advert has an illustration or not.
 
@@ -421,7 +417,7 @@ A 'learning rate' is used to determine how much a model should update based on t
 
 When we train a deep learning model, we usually do so to make predictions on new unseen data which doesn't contain labels. For example, we might want to use our advert classifier across all of images for a particular time period to count how many of each type of advert (illustrated or not) appeared in this corpus. We, therefore, don't want a model that only does well at learning how to classify the training data it is shown. Consequently, we almost always use some form of 'validation data'. This is data which is used to check that the weights a model is learning on the training data also translate to new data. In the training loop, the validation data is only used to 'test' the model's predictions. The model does not directly use to update weights. This helps ensure we don't end up 'overfitting' our model. 
 
-'Overfitting' refers to when a model becomes very successful at making predictions on the training data but these predictions don't generalise beyond the training data. In effect, the model is 'remembering' the training data rather than learning more general features to make correct predictions on new data. A validation set prevents this by allowing you to see how well the model is doing on data it hasn't learned from. Sometimes, an additional split is made of the data which is used to make predictions only at the end of training a model. This is often known as a 'test' set. A test set is used to validate model performance for data science competitions, such as those hosted on Kaggle, and to validate the performance of models created by external partners. This helps ensure a model is robust in situations where validation data has deliberately or accidentally been used to 'game' the performance of a model.
+'Overfitting' refers to when a model becomes very successful at making predictions on the training data but these predictions don't generalise beyond the training data. In effect, the model is 'remembering' the training data rather than learning more general features to make correct predictions on new data. A validation set prevents this by allowing you to see how well the model is doing on data it hasn't learned from. Sometimes, an additional split is made of the data which is used to make predictions only at the end of training a model. This is often known as a 'test' set. A test set is used to validate model performance for data science competitions, such as those hosted on [Kaggle](https://www.kaggle.com/competitions), and to validate the performance of models created by external partners. This helps ensure a model is robust in situations where validation data has deliberately or accidentally been used to 'game' the performance of a model.
 
 ## Transfer Learning
 
@@ -439,7 +435,7 @@ When a model is created in the fastai library using the `vision_learner` method,
 
 ## Suggested Experiments
 
-It is important to develop a sense of what happens when you make changes to the training process. We suggest making a copy of the lesson notebook and seeing what happens if you make changes. Here are some suggestions:
+It is important to develop a sense of what happens when you make changes to the training process. We suggest making a new copy of the lesson notebook and seeing what happens if you make changes. Here are some suggestions:
 
 - Change the size of the input images defined in the `Resize` item transform in the `ImageDataLoaders`.
 - Change the model used in `vision_learner` from `resnet18` to `resnet34`.

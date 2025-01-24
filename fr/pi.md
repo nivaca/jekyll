@@ -10,11 +10,11 @@ original: ipp
 
 # Partenariat institutionnel
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" />
 
 Nous vous remercions de l'intérêt que vous portez au programme de Partenariat institutionnel, qui constitue le principal soutien aux publications en libre accès primées du Programming Historian. Nous ne pourrions pas faire notre travail sans votre précieux soutien.
 
-Le *Programming Historian* est une organisation à but non-lucratif qui publie de la recherche en libre accès sur la voie dorée (*gold open access*).
+Le *Programming Historian* est une organisation à but non-lucratif qui suit le modèle d'édition scientifique en libre accès diamant (*diamond open access*).
 
 En rejoignant notre programme de Partenariat institutionnel, votre établissement peut soutenir un projet d'envergure mondiale. Un tiers de nos lecteurs vivent dans des pays à faibles et moyens revenus, et ce nombre ne cesse d'augmenter.
 
@@ -22,20 +22,20 @@ Tarifs de partenariat
 
 _Niveau Gold_
 
-Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, et 4 200 USD. Nos partenaires Gold peuvent travailler avec nous pour développer des évènements qui aident leurs communautés à utiliser les outils et les méthodes des humanités numériques.[^1]
+Les tarifs de nos partenariats de niveau Gold sont de 3 600 EUR, 3 600 CHF, 5 100 CAD, 3 000 GBP, et 4 200 USD. Nos partenaires Gold peuvent collaborer avec nous pour aider leurs communautés à mieux utiliser les outils et méthodes en humanités numériques.
 
 _Niveau Silver_
 
-| Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/listecad.htm)  |
+| Pays à revenu élevé | Pays à revenu intermédiaire | Pays à faible revenu et moins avancés [éligibles à l'APD](https://www.oecd.org/fr/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
-| 1 200 EUR  | 500 EUR | 175 EUR  |
-| 1 200 CHF  | 500 CHF | 175 CHF  |
-| 1 700 CAD  | 700 CAD | 275 CAD  | 
-| 1 000 GBP  | 400 GBP | 150 GBP  |
-| 1 400 USD  | 600 USD | 200 USD  |
+| 1 500 EUR  | 500 EUR | 175 EUR  |
+| 1 400 CHF  | 500 CHF | 175 CHF  |
+| 2 240 CAD  | 700 CAD | 275 CAD  | 
+| 1 250 GBP  | 400 GBP | 150 GBP  |
+| 1 650 USD  | 600 USD | 200 USD  |
 
 
-Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en janvier de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Les taux sont dus annuellement à partir de la date du premier paiement et sont fixés en octobre de chaque année. Pour obtenir un devis dans une autre devise, veuillez envoyer un courriel à <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Responsable de la publication</a>.
 
 
 ## Avantages du partenariat
@@ -60,7 +60,7 @@ Joindre le programme de Partenariat institutionnel vous donnera accès aux avant
 </svg>
 </div>
 
-Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>, en indiquant "Programme de Partenariat institutionnel" dans la ligne d'objet. Dans votre message, vous pouvez inclure des documents internes tels que vos formulaires d'inscription de fournisseurs. Votre message devrait aussi inclure les informations suivantes:
+Si vous souhaitez devenir Partenaire institutionnel, veuillez contacter <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a>, en indiquant "Programme de Partenariat institutionnel" dans la ligne d'objet. Dans votre message, vous pouvez inclure des documents internes tels que vos formulaires d'inscription de fournisseurs. Votre message devrait aussi inclure les informations suivantes:
 
 <ul>
 <li>Votre nom</li>
@@ -81,7 +81,7 @@ Toutes les adhésions se font sous réserve de l'approbation de l'équipe du *Pr
 
 ## Échangez avec nous
 
-Nous serions ravis de discuter avec vous de notre projet et de ce que votre soutien nous permet d'accomplir. <a href="mailto:programminghistorian@gmail.com">Écrivez-nous</a> afin de planifier une rencontre virtuelle.
+Nous serions ravis de discuter avec vous de notre projet et de ce que votre soutien nous permet d'accomplir. <a href="mailto:admin@programminghistorian.org">Écrivez-nous</a> afin de planifier une rencontre virtuelle.
 
 
 ## Foire aux questions
@@ -94,5 +94,3 @@ Nous serions ravis de discuter avec vous de notre projet et de ce que votre sout
  - Les Partenaires contribuent à l'infrastructure commune à toutes nos publications. En participant au Partenariat institutionnel, vous renforcez les ressources dans la langue de votre choix, ainsi que celles de l'ensemble de notre offre.
  
   ---
-
-[^1]: Les évènements du _Programming Historian_ sont ouverts sur inscription, avec des places réservées à nos partenaires Gold. Nous organiserons jusqu’à deux évènements par an avec nos partenaires de niveau Gold. Il n’est possible d’organiser des évènements et de profiter de places réservées que pendant la période d’adhésion au niveau Gold. La décision finale concernant la composition, le format, la durée et la date de tous les évènements de ProgHist Ltd organisés dans le cadre du programme Gold est à la discrétion de ProgHist Ltd.

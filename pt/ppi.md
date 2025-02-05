@@ -9,11 +9,11 @@ original: ipp
 
 # Programa de Parceria Institucional
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
 
 Obrigado pelo seu interesse no Programa de Parceria Institucional, que garante apoio para as premiadas publicações de acesso aberto do _Programming Historian_. Não podemos fazer nosso trabalho sem o seu valioso apoio.
 
-O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto, configurando uma boa relação custo-benefício.
+O _Programming Historian_ opera sem fins lucrativos, publicando valiosas lições em acesso aberto diamante, configurando uma boa relação custo-benefício.
 
 A adesão ao nosso Programa de Parceria Institucional permite que a sua instituição apoie um projeto com foco global. Um terço de nossos leitores vive em países de baixa e média renda e esse número continua crescendo. A criação da página em português contribui ainda mais para isso!
 
@@ -21,21 +21,21 @@ Taxas de adesão:
 
 _Nível Gold_
 
-As taxas de parceria ao nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos apoiadores do nível Gold têm a oportunidade de trabalhar connosco para desenvolver eventos que ajudem as suas comunidades a utilizar ferramentas e métodos de humanidades digitais.[^1]
+As taxas de nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. Os nossos parceiros Gold têm a oportunidade de trabalhar connosco para melhorar a utilização das ferramentas e métodos das humanidades digitais a serem utilizados pelas suas comunidades.
 
 _Nível Silver_
 
-| Países de renda alta | Países de renda média | [Países elegíveis para ODA](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+| Países de renda alta | Países de renda média | [Países elegíveis para ODA](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 |--|--|--|
-| €1.200 EUR | €500 EUR | €175 EUR |
-| $7.000 BRA | $2.800 BRA | $1.000 BRA |
-| £1.000 GBP | £400 GBP | £150 GBP |
-| $1.400 USD | $600 USD | $200 USD |
-| $1.700 CAD | $700 CAD | $275 CAD |
+| €1.500 EUR | €500 EUR | €175 EUR |
+| $9.000 BRA | $2.800 BRA | $1.000 BRA |
+| £1.250 GBP | £400 GBP | £150 GBP |
+| $1.650 USD | $600 USD | $200 USD |
+| $2.240 CAD | $700 CAD | $275 CAD |
 
 Se a sua instituição tem recursos para nos oferecer um suporte ainda maior, também damos as boas-vindas a parcerias no nosso nível Gold. As taxas de parceria do nível Gold são €3.600 EUR, $21.000 BRA, £3.000 GBP, $4.200 USD, $5.100 CAD. As instituições parceiras de nível ouro tem dois workshops personalizados por ano para ajudar suas comunidades a usar ferramentas e métodos de humanidades digitais.
 
-As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em Janeiro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Dr. James Baker](mailto:programminghistorian@gmail.com).
+As taxas são anuais e consideramos a contagem a partir da data do primeiro pagamento. Os valores são definidos em outubro de cada ano. Para uma cotação em outra moeda, por favor, envie um e-mail para [Anisa Hawes, Gestora de publicações](mailto:admin@programminghistorian.org).
 
 ## Benefícios da adesão
 
@@ -50,12 +50,24 @@ Ao aderir ao Programa de Parceiros Institucionais receberá os seguintes benefí
 
 ## Formalização da adesão
 
-Para se tornar um Parceiro Institucional, por favor, envie um e-mail para James Baker através de [programminghistorian@gmail.com](mailto:programminghistorian@gmail.com) com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
+<div class="alert alert-info">
+<div class="float-left">
+	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-credit-card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+  <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+</svg>
+</div>
+       
+Para se tornar um Parceiro Institucional, por favor, envie um e-mail para <a href='mailto:admin@programminghistorian.org'>Anisa Hawes</a> com o assunto “Institutional Partners Programme”. O e-mail deverá incluir as seguintes informações:
 
--   O seu nome.
--   A sua instituição.
--   O seu modo de pagamento preferido (transferência bancária, cheque, factura, Paypal).
--   A moeda preferida para pagamento (se não estiver referida acima, por favor pergunte).
+<ul>
+<li>O seu nome</li>
+<li>A sua instituição</li>
+<li>O seu modo de pagamento preferido (transferência bancária, cheque, factura, Paypal)</li>
+<li>A moeda preferida para pagamento (se não estiver referida acima, por favor pergunte)</li>
+</ul>
+
+</div>
 
 Tenha em atenção que ao enviar o e-mail com o assunto “Institutional Partners Programme” está a concordar com as seguintes condições:
 
@@ -68,7 +80,7 @@ O objetivo do _Programming Historian_ é desenvolver a educação do público na
 
 ## Quer conversar?
 
-Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envie-nos uma mensagem](mailto:programminghistorian@gmail.com) e providenciaremos uma xícara virtual de café ou chá.
+Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envie-nos uma mensagem](mailto:admin@programminghistorian.org) e providenciaremos uma xícara virtual de café ou chá.
 
 ## Perguntas frequentes
 
@@ -82,5 +94,3 @@ Teremos prazer em conversar sobre o que fazemos e como usamos o seu apoio. [Envi
        -   Os patrocinadores contribuem para a infraestrutura compartilhada usada em todas as nossas publicações. Ao se tornar um patrocinador do PPI, você fortalece os recursos no idioma escolhido, bem como em toda a nossa oferta.
 
 ---
-
-[^1]: Os eventos de _Programming Historian_ são de inscrição aberta, com lugares reservados para os nossos apoiadores de nível Gold. Serão desenvolvidos até dois eventos por ano com apoiadores de nível Gold. Oportunidades de desenvolvimento de eventos e lugares reservados só se aplicarão durante o período de filiação de nível Gold. A decisão final sobre a composição, formato, duração e calendário de todos os eventos ProgHist Ltd. organizados no âmbito do programa Gold fica ao critério da ProgHist Ltd.

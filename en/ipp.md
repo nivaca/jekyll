@@ -9,11 +9,11 @@ redirect_from: /ipp
 
 # Institutional Partner Programme
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" alt="{{ site.data.snippets.supporters-ipp-image-alt[page.lang] }}"/>
 
 Thank you for your interest in the Institutional Partnership Programme, which provides the core support for the *Programming Historian*'s award winning open access publications. We cannot do our work without your valued support.
 
-*Programming Historian* operates on a not-for-profit basis, publishing cost-effective gold open access scholarship.
+*Programming Historian* operates on a not-for-profit basis, publishing cost-effective diamond open access scholarship.
 
 Joining our Institutional Partner Programme allows your institution to support a globally focused project. One third of our readers live in low and middle income countries, and that number continues to grow.
 
@@ -21,18 +21,18 @@ Partnership Rates:
 
 _Gold Tier_  
 
-Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to work with us to develop events that help their communities use digital humanities tools and methods.[^1]
+Gold Partnership rates are £3,000 GBP / $4,200 USD / €3,600 EUR / $5,100 CAD. Gold partners are offered the opportunity to collaborate with us to enhance their communities' use of digital humanities tools and methods.
 
 _Silver Tier_
 
-| Upper Income Countries  | Middle Income Countries | [ODA eligible countries](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm)  |
+| Upper Income Countries  | Middle Income Countries | [ODA eligible countries](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html)  |
 |---|---|---|
-| £1,000 GBP  | £400 GBP | £150 GBP  |
-| $1,400 USD  | $600 USD | $200 USD  |
-| €1,200 EUR  | €500 EUR | €175 EUR  |
-| $1,700 CAD  | $700 CAD | $275 CAD  | 
+| £1,250 GBP  | £400 GBP | £150 GBP  |
+| $1,650 USD  | $600 USD | $200 USD  |
+| €1,500 EUR  | €500 EUR | €175 EUR  |
+| $2,240 CAD  | $700 CAD | $275 CAD  | 
 
-Rates are due annually from the date of first payment and are set in January each year. For a quote in another currency please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Rates are due annually from the date of first payment and are set in October each year. For a quote in another currency please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Publishing Manager</a>.
 
 ## Benefits of Membership
 
@@ -55,7 +55,7 @@ By joining the Institutional Partner Programme you will receive the following be
 </svg>
 </div>
 
-To become a Institutional Partner, please email <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> with "Institutional Partners Programme" in the subject line. You may include in the email any internal paperwork such as supplier registration forms. Your email should also include the following information:
+To become a Institutional Partner, please email <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a> with "Institutional Partners Programme" in the subject line. You may include in the email any internal paperwork such as supplier registration forms. Your email should also include the following information:
 
 <ul>
 <li>Your Name</li>
@@ -77,7 +77,7 @@ All memberships are subject to the approval of The *Programming Historian* Proje
 
 ## Want to Discuss?
 
-We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:programminghistorian@gmail.com">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
+We'd be happy to have a conversation about what we do and how we use your support. <a href="mailto:admin@programminghistorian.org">Drop us a line</a> and we can arrange a virtual cup of coffee or tea.
 
 
 ## Frequently Asked Questions
@@ -90,4 +90,3 @@ We'd be happy to have a conversation about what we do and how we use your suppor
  - Sponsors contribute to the shared infrastructure used across all of our publications. By becoming an IPP sponsor, you strengthen the resources in your chosen language, as well as those across our offering.
  
  ---
- [^1]: _Programming Historian_ events have open registrations, with places reserved for Gold Tier members. Up to two events each year will be developed with Gold Tier members. Event development opportunities and reserved places only apply during the period of Gold Tier membership. The final decision as to the composition, format, duration, and timing of all ProgHist Ltd events delivered as part of the Gold Tier scheme is at the discretion of ProgHist Ltd.

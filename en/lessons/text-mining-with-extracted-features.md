@@ -11,7 +11,7 @@ editors:
 - Ian Milligan
 layout: lesson
 activity: analyzing
-topics: [distant-reading]
+topics: [distant-reading, data-visualization]
 difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |
@@ -427,7 +427,7 @@ As before, the data is returned as a Pandas DataFrame. This time, there is much 
 
 {% include figure.html filename="single-row-tokencount.png" caption="Single row of tokenlist." %}
 
-The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
+The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://web.archive.org/web/20180730200619/https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
 
 > The "words" on the first page seems to be OCR errors for the cover of the book. The HTRC Feature Reader refers to "pages" as the $$n^{th}$$ scanned image of the volume, not the actual number printed on the page. This is why "page 1" for this example is the cover.
 
@@ -1154,7 +1154,7 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 # References
 
-Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://doi.org/10.13012/J8X63JT3.
+Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. *HathiTrust Research Center*. [https://doi.org/10.13012/J8X63JT3](https://doi.org/10.13012/J8X63JT3)
 
 Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [http://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/).
 
@@ -1167,9 +1167,9 @@ Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis.
 William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. /lessons/counting-frequencies.
 
 Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
-https://doi.org/10.6084/m9.figshare.1281251.v1.
+[https://doi.org/10.6084/m9.figshare.1281251.v1](https://doi.org/10.6084/m9.figshare.1281251.v1)
 
-Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. https://doi.org/10.13012/J8JW8BSJ.
+Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. [https://doi.org/10.13012/J8JW8BSJ](https://doi.org/10.13012/J8JW8BSJ)
 
 Hadley Wickham (2011). "The split-apply-combine strategy for data analysis". *Journal of Statistical Software*, 40(1), 1-29.
 

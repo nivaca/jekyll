@@ -140,7 +140,7 @@ Vamos salvar nosso ficheiro antes de avançar. Crie a nova pasta que irá armaze
 
 Depois que seu ficheiro for salvo, vamos adicionar uma ilustração. Copie uma imagem (qualquer imagem pequena) para a sua pasta e adicione o seguinte em algum lugar no corpo do texto: `![legenda da imagem](sua_imagem.jpg)`.
 
-Nesse ponto, o seu `main.md` deve parecer com o que está abaixo. É possível baixar esse exemplo de ficheiro teste.md [aqui](/assets/teste.md).
+Nesse ponto, o seu `main.md` deve parecer com o que está abaixo. É possível baixar esse exemplo de ficheiro teste.md [aqui](/assets/autoria-sustentavel-texto-simples-pandoc-markdown/teste.md).
 
 ```
 ---
@@ -224,8 +224,13 @@ Agora navegue de volta para o diretório do seu projeto. O que aconteceu?
 
 Usuários mais avançados que tem o LaTeX instalado podem querer experimentar convertendo o Markdown em .tex ou ficheiros .pdf especialmente formatados. Uma vez que o LaTeX estiver instalado, um ficheiro PDF belamente formatado pode ser criado usando a mesma estrutura de comando:
 ```
-    pandoc main.md -o projeto.pdf
-``` 
+   pandoc main.md -o main.pdf
+```
+
+<div class="alert alert-warning">
+  Se este comando falhar, você pode precisar adicionar um componente que forneça ao pandoc o caminho completo para o motor LaTeX que deseja usar, especificando onde está armazenado. A localização variará se você estiver trabalhando em Mac, Windows ou Linux. Os leitores são aconselhados a verificar o caminho correto para o motor LaTeX em seu sistema e seguir <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>as instruções de instalação atuais</a> (em inglês).
+</div>
+
 Se o seu documento estiver escrito em outros idiomas que não o inglês, você provavelmente precisará usar o mecanismo XeLaTeX em vez do LaTeX simples para conversão .pdf:
 ```
     pandoc main.md --pdf-engine=xelatex -o main.pdf

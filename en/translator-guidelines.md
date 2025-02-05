@@ -8,13 +8,13 @@ skip_validation: true
 ---
 
 # Translator Guidelines
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Step 1: <a href="#proposing-a-new-lesson">Proposing the Translation of a Lesson</a></h2>
 <h2 class="noclear">Step 2: <a href="#writing-a-new-lesson">Writing and Formatting a Translation</a></h2>
 <h2 class="noclear">Step 3: <a href="#submitting-a-new-lesson">Submitting a Translated Lesson</a></h2>
 
 ## Proposing the Translation of a Lesson
-If you want to translate a lesson published in *Programming Historian*, please see the list of [pending translations](https://github.com/programminghistorian/ph-submissions/issues?q=is%3Aissue+is%3Aopen+label%3AEnglish) and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
+If you want to translate a lesson published in *Programming Historian*, please see the list of [pending translations](https://github.com/orgs/programminghistorian/projects/5) and contact {% include managing-editor.html lang=page.lang %} to discuss your language skills and translation experience. We look for translations that are rigorous, readable, and consider the needs of an English-reading audience.
 
 Once the translation of a published lesson is approved, one of our editors will create a "Translation Review Ticket" on our Github [repository](https://github.com/programminghistorian/ph-submissions) where the peer review will take place. This ticket includes a message board feature, which will be used to document the progress made during the translation review. To avoid delays in publishing, we ask that you submit your translation within 90 days of the editor accepting your proposal.
 

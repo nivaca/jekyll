@@ -9,7 +9,7 @@ skip_validation: true
 
 # Author Guidelines
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
 <h2 class="noclear">Step 2: <a href="#step-2-writing-and-formatting-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
 <h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
@@ -20,12 +20,8 @@ These guidelines have been developed to help you understand the process of creat
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-We welcome tutorials relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
-
-The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
+Our English journal will open its next annual submission window in October 2025. In the meantime, you may find it useful to <a href="/posts/en-call-for-proposals">consult our past call for proposals</a> (closed in January 2025). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
-
-If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to [the managing editor](mailto:english@programminghistorian.org).
 
 You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en/drafts). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
 
@@ -192,16 +188,9 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Endnotes should not just contain a URL.
     *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrect): https://doi.org/10.1086/680389
-* In order to cite software, which requires citation as a condition of use within a lesson, please provide as much as possible from the information below, following the general "Notes and Bibliography” system found in the Chicago Manual of Style, 17th Edition for endnotes:
-    *	author
-    * product name
-    * version number
-    * year of publication
-    * URL or DOI
-
-  Eg. The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
-
-  Please check each software official webpage or documentation for authors guidelines about how to cite their work (eg. https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
+* To cite software according to [the recommendations of Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), please provide available elements of the following information: author, title, version, year of release, license, repository URL. Below you will find an example following the _Chicago Manual, 17th edition_ citation style:
+    * **End note**: Julien Barnier _et al._. _Scatterd3_, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Bibliography entry**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 
 ### Challenging Words Explained
